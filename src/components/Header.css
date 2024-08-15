@@ -1,0 +1,33 @@
+
+.Header{
+    width: 100vw;
+    height: 9vh;
+    background-color: rgb(172, 172, 172);
+    display: flex;
+    align-items: center;
+    color: white;
+    position:  fixed;
+    z-index: 4;
+}
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: rgb(97, 97, 97) 1px 0 10px;
+}
+.icon_menu{
+    margin: 0 15% 0 8%;
+    scale: 6;
+    border-radius: 45px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    cursor: pointer;
+    color: white;
+    padding: 1px;
+    /* background-color: rgb(185, 185, 185); */
+}
+@media (min-width:992px) {
+    .icon_menu{
+        scale: 3;
+    }
+    .title{
+        margin-left: 10%;
+    }
+}
